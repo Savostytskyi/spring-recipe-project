@@ -9,7 +9,7 @@ import java.math.BigDecimal;
 @Getter
 @Setter
 @Entity
-public class Ingredient {
+public final class Ingredient {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

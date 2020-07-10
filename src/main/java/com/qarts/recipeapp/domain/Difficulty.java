@@ -1,4 +1,8 @@
 package com.qarts.recipeapp.domain;
 
-public class Difficulty {
+public enum Difficulty {
+
+    EASY,
+    MODERATE,
+    HARD
 }
